@@ -22,7 +22,6 @@ import java.util.List;
 public class RestAdminController {
 
     private final UserService userService;
-
     @Autowired
     public RestAdminController(UserService userService) {
         this.userService = userService;

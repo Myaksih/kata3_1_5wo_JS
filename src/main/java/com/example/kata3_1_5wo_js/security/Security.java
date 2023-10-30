@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 public class Security implements UserDetailsService {
 
     private final UserServiceImpl userServiceImp;
-
     public Security(UserServiceImpl userServiceImp) {
         this.userServiceImp = userServiceImp;
     }

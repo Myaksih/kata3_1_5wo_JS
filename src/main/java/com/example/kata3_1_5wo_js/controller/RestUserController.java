@@ -15,8 +15,8 @@ import java.security.Principal;
 @RestController
 @RequestMapping("/restUser")
 public class RestUserController {
-    private final UserService userService;
 
+    private final UserService userService;
     @Autowired
     public RestUserController(UserService userService) {
         this.userService = userService;
