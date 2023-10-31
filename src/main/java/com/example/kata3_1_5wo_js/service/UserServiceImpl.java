@@ -4,15 +4,14 @@ package com.example.kata3_1_5wo_js.service;
 import com.example.kata3_1_5wo_js.model.User;
 import com.example.kata3_1_5wo_js.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
+
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import java.util.Collection;
+
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class UserServiceImpl implements UserService {
